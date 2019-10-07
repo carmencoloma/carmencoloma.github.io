@@ -1,5 +1,5 @@
 body {
-	background: #FFF0F5;
+	background: #FAEBD7 url('../images/vintage-concrete.png');
 	color: #333;
 }
 
@@ -11,15 +11,15 @@ a {
 a:hover { color: Tomato; }
 
 header, nav, main, footer {
-	width: 100%;
+	width: 80%;
 	margin: auto;
 }
 
 
 /* Header styles */
 header { 
-	background: #FAEBD7 url('../images/stripes.jpg');
-	color: White;
+	background-color: #000;
+	color: BlanchedAlmond;
 	min-height: 100px;
 	margin-top: 60px;
 }
@@ -44,7 +44,7 @@ nav a:hover { color: white; }
 main { 
 	background-color: #fff;
 	display: grid;
-	grid-template-columns: 40% 40%;
+	grid-template-columns: 60% 40%;
 }
 
 section {
